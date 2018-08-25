@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/coodinator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@android:color/white"
+    android:fitsSystemWindows="true">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+
+               android:background="@color/colorPrimary"
+                android:theme="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+
+    <ImageView
+        android:id="@+id/imageview_profile11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:maxHeight="300dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/jhhhh"/>
+
+
+
+<EditText
+    android:id="@+id/foodname"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp"
+    android:paddingLeft="10dp"
+    android:background="@drawable/rectangle_layout"
+    android:padding="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:textColor="@android:color/white"
+    android:textColorHint="@android:color/white"
+    android:gravity="center"
+    android:hint="name of food"/>
+     <EditText
+         android:id="@+id/foodprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+         android:background="@drawable/rectangle_layout"
+         android:padding="10dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:textColor="@android:color/white"
+         android:textColorHint="@android:color/white"
+         android:gravity="center"
+        android:hint="price of food"/>
+
+    <EditText
+        android:id="@+id/fooddesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:gravity="center"
+        android:background="@drawable/rectangle_layout"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:hint="Description of food"/>
+
+
+<Button
+    android:id="@+id/postfoodbtn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp"
+    android:text="post food"
+    android:padding="5dp"
+ android:background="@drawable/rectangle_layout"
+    android:layout_gravity="center"/>
+
+
+
+
+
+</LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
